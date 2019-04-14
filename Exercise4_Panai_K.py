@@ -12,4 +12,4 @@ print("General Business  :",G)
 
 print("Introduction to Computer Systems  :",I)
 
-print("Computer Programming  :",I)
+print("Computer Programming  :",C)
