@@ -1,0 +1,12 @@
+def addnumber(x,y):
+    print(x+y)
+addnumber(4,2)
+def minusnumber(x,y):
+    print(x-y)
+minusnumber(4,2)
+def multiplynumber(x,y):
+    print(x*y)
+multiplynumber(4,2)
+def dividenumber(x,y):
+    print(x/y)
+dividenumber(4,2)
