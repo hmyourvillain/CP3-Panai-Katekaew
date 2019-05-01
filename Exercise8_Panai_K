@@ -1,0 +1,25 @@
+usernameInput=input("Username :")
+passwordInput=input("Password :")
+
+if usernameInput=="usernumber1" and passwordInput=="aryastark":
+
+    print("Login Successfully")
+    print(" --- Welcome to our online store --- ")
+    print("Price of A = 2500 Baht")
+    print("Price of B =400 Baht")
+    userselected=input("Key  product:")
+
+    if userselected == "A":
+        n=int(input("input your number of order :"))
+        result = 2500*n
+        print("Summary Amount","A for",n)
+        print("total Price: ", result,"Baht")
+
+    elif userselected == "B":
+        n=int(input("input your number of order :"))
+        result = 400*n
+        print("Summary Amount","B for",n)
+        print("total Price: ",result,"Baht")
+
+else:
+    print("Try Again")
