@@ -1,0 +1,17 @@
+menuList = []
+def showTransac():
+    print("----- FUKKIN FOOD -----")
+    price = 0
+    for i in range(len(menuList)):
+        print("Menu:",menuList[i][0],"Price:",menuList[i][1])
+        price += int(menuList[i][1])
+    print("Total Price : ",price)
+
+while True:
+    menuName = input("Enter the  menu : ")
+    if(menuName.lower() == "exit" ):
+        break
+    else:
+        menuPrice = input("Price : ")
+        menuList.append([menuName,menuPrice])
+showTransac()
